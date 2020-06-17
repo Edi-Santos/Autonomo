@@ -1,0 +1,148 @@
+/** CSS **/
+
+/* TAGs */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	max-width: 1000px;
+	width: 80%; 
+	margin-left: auto;
+	margin-right: auto; /* ou margin: 0 auto; */
+	
+	background-color: AliceBlue;
+}
+
+header{
+	min-height: 80px;
+}
+
+input{
+	margin: 5px;
+	padding: 3px;
+	width: 100%;
+	
+	border-radius: 10px;
+	box-shadow: 3px 3px 15px rgba(169, 169, 169, 0.8);
+}
+
+textarea{
+	margin: 5px 0 20px;
+	padding: 3px;
+	width: 100%;
+	
+	border-radius: 3px;
+	box-shadow: 5px 5px 15px rgba(169, 169, 169, 0.8);
+}
+
+button{
+	float: right;
+	
+	height: 35px;
+	width: 75px;
+	
+	cursor: pointer;
+	
+	border: 1px solid Black;
+	border-radius: 5px;
+	box-shadow: 1px 1px 15px rgba(0, 0, 255, 0.4);
+	
+	background-color: MediumSlateBlue;
+	
+	font-weight: bold; /* negrito */
+}
+
+button:hover{
+	background-color: SkyBlue;
+	color: White;
+	
+	font-weight: bold;
+	
+	transition: 400ms;
+}
+
+footer{
+	clear: both;
+	
+	margin: 30px;
+	padding-top: 25px;
+	
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(128, 128, 128, 1);
+}
+
+footer a{
+	color: Teal;
+	text-shadow: 1px 1px 1px SkyBlue;
+}
+
+footer a:hover{
+	color: DarkSlateGray;
+	font-weight: bold;
+	
+	text-decoration: underline;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+/* IDs */
+#cabecalho{
+	
+}
+
+#menu{
+	float: right;
+	
+	padding: 0 0 0 20px;
+}
+
+#meio_fim{
+	clear: both;
+}
+
+#principal{
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto; /* ou: margin: 0 auto; */
+}
+
+#principal h2{
+	margin: 20px 0;
+	
+	text-align: center;
+}
+
+#cad_num{
+	margin: 3px 5px;
+	display: flex;
+	align-items: center;
+}
+
+#voltar{
+	float: left;
+	
+	margin: 5px;
+	padding: 8px;
+	
+	border: 1px solid none;
+	border-radius: 8px;
+	background-color: AliceBlue;
+	box-shadow: 5px 3px 20px -5px rgba(0, 0, 0, 0.25);
+		
+	color: rgb(65, 105, 225);
+	font-weight: bold;
+}
+
+#voltar:hover{
+	background-color: SkyBlue;
+	color: White;
+	
+	transition: 400ms;
+}
+
+/* Class */
